@@ -1,21 +1,15 @@
-.currentTime {
+.time {
   background: #e6e9ff;
   border: 4px solid #000;
   border-radius: 20px;
-  width: 900px;
+  width: 1200px;
   margin: 0 auto 20px;
   text-align: center;
-}
-
-.hours, .minutes, .seconds, .double-colon {
-  display: inline-block;
   font: 156px 'Verdana';
 }
 
-.miliseconds {
+.msek {
   font: 50px 'Verdana';
-  text-align: right;
-  margin-right: 90px;
 }
 
 .manage {
@@ -24,7 +18,7 @@
   text-align: center;
 }
 
-.start, .clear, .pause, .cont {
+.start, .clear {
   cursor: pointer;
   font: 60px 'Verdana';
   width: 40%;
@@ -36,7 +30,7 @@
   display: inline-block;
 }
 
-.start, .pause, .cont {
+.start {
   background: linear-gradient(#cafcd6, #2fd730);
 }
 
